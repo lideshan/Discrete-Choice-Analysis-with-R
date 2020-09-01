@@ -22,7 +22,6 @@ In this reading, you will learn:
 ##	R: The Open Statistical Computing Project
 
 ### What is R?
-TEST
 
 R is an open-source language for statistical computing. It was created by Ross Ihaka and Robert Gentleman at the University of Auckland, in New Zealand, as a way to offer their students an accessible, no-cost tool for their courses. R is now maintained by the R Development Core Team, and developed by hundreds of contributors around the globe. R is an attractive alternative to other software applications for data analysis (e.g., Microsoft Excel, STATA) due to its open-source character (i.e., it is free), its flexibility, and large and dedicated user community, which means if there’s something you want to do (for instance, linear regression), it is very likely that someone has already developed functionality for it in R.
 
@@ -72,3 +71,8 @@ install.packages("tidyverse")
 ```
 
 The function `install.packages` retrieves packages from the [Comprehensive R Archive Network](https://cran.r-project.org/), or CRAN for short. CRAN is a collection of sites (accessible via the internet) that carry identical materials for distribution for R.
+
+
+## Encoding in R
+
+Depending on your default enconding parameters, the text in the .Rmd file may present strange characters. If that is the case, reopen the file using the UTF-8 encoding style (File->Reopen with Encoding).
